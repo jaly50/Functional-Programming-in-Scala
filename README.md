@@ -1,6 +1,8 @@
 # Functional-Programming-in-Scala
 Coursera specialization: Functional Programming in Scala
 
+
+//Conc-tree 0919
 sealed trait Conc[+T] {
   def level: Int
   def size: Int
